@@ -1,0 +1,60 @@
+html {
+  width: 100%;
+}
+html * {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 26px;
+  line-height: 1.5;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+body h1 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+body p {
+  margin: auto;
+  margin-bottom: 3em;
+  width: 55%;
+  text-align: justify;
+}
+@media (max-width: 1000px) {
+  body p {
+    width: 75%;
+  }
+}
+@media (max-width: 500px) {
+  body p {
+    width: 95%;
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+body .img {
+  margin: auto;
+  margin-bottom: 3em;
+  max-width: 75%;
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  body .img {
+    max-width: 85%;
+  }
+}
+@media (max-width: 500px) {
+  body .img {
+    max-width: 100%;
+  }
+}
+body .img img {
+  max-height: 20em;
+  max-width: 100%;
+}/*# sourceMappingURL=styles.css.map */

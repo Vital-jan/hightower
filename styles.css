@@ -12,7 +12,7 @@ body {
   font-size: 26px;
   line-height: 1.5;
   position: relative;
-  margin: 0;
+  margin: 100px 0 0 0;
   padding: 0;
 }
 body h1 {
@@ -43,6 +43,10 @@ body .img {
   margin-bottom: 3em;
   max-width: 75%;
   text-align: center;
+}
+body .img.title {
+  margin-top: 100px;
+  margin-bottom: 200px;
 }
 @media (max-width: 1000px) {
   body .img {
